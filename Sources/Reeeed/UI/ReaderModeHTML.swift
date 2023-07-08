@@ -194,10 +194,10 @@ figcaption, cite {
     <h1>\(escapedTitle)</h1>
         \(subtitle)
         \(html)
-    <div id="__footer">
+    <!--<div id="__footer">
         <div class="label">Automatically converted to Reader Mode</div>
         \(exitReaderButton)
-    </div>
+    </div>-->
 </div>
 
 <script>
