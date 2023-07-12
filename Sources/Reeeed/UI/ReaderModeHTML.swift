@@ -6,9 +6,9 @@ extension Reeeed {
         let escapedTitle = Entities.escape(title.byStrippingSiteNameFromPageTitle)
         let logger = Reeeed.logger
 
-        let (fgLight, fgDark) = theme.foreground.hexPair
+        let (_, fgDark) = theme.foreground.hexPair
         let (fg2Light, fg2Dark) = theme.foreground2.hexPair
-        let (bgLight, bgDark) = theme.background.hexPair
+        let (_, bgDark) = theme.background.hexPair
         let (bg2Light, bg2Dark) = theme.background2.hexPair
         let (linkLight, linkDark) = theme.link.hexPair
 
@@ -67,8 +67,8 @@ html, body {
 }
 
 body {
-    color: \(fgLight);
-    background-color: \(bgLight);
+    color: \(fgDark);
+    background-color: \(bgDark);
     overflow-wrap: break-word;
     font: -apple-system-body;
 }
