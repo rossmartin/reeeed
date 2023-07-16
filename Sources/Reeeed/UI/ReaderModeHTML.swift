@@ -113,8 +113,11 @@ table {
     overflow-x: auto;
 }
 
-a:link {
-    color: \(linkLight);
+a {
+  pointer-events: none;
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
 }
 
 figure {
@@ -146,7 +149,6 @@ figcaption, cite {
         color: \(fgDark);
         background-color: \(bgDark);
     }
-    a:link { color: \(linkDark); }
 }
 
 #__footer {
